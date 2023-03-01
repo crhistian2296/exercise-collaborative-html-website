@@ -1,48 +1,35 @@
-<!-- your html code here -->
-<div class="body py-5">
+<div class="body bg-white">
   <div class="container">
-    <h1>Contact</h1>
-    <p>
-      Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula
-      porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque
-      nisl consectetur. Fusce dapibus, tellus ac cursus commodo.
-    </p>
+      <h1>Contact</h1>
+      <p>Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo. </p>
   </div>
+</div>
 
-  <div class="container align-items-center">
-    <div class="card">
-      <form class="bg-light">
-        <div class="card-body" style="font-weight: bold">
-          <div class="d-flex justify-content-end">
-            <div class="col-md-6">
-              <label for="validationDefault04" class="mb-2">Your Email</label>
-              <input
-                type="text"
-                class="form-control"
-                id="validationDefault04"
-                placeholder="Your email"
-                required
-              />
-            </div>
-          </div>
-          <div class="d-flex justify-content-end">
-            <div class="col-md-6">
-              <label for="validationDefault10" class="mb-2">Your Message</label>
-              <textarea
-                class="form-control"
-                rows="4"
-                placeholder="Please enter your message here..."
-                required
-              ></textarea>
-            </div>
-          </div>
-          <div class="card-body d-grid d-md-flex justify-content-end">
-            <button type="button justify-content-end" class="btn btn-primary">
-              Submit
-            </button>
+<div class="container">
+<div class="row d-flex justify-content-center mb-2">
+  <div class="col-8">
+    <div class="form-control bg-light">
+
+        <div class="row mb-3 mt-1 d-flex justify-content-end">
+          <label for="Email" class="d-flex justify-content-end col-3 col-form-label"><strong>Your E-mail </strong></label>
+          <div class="col-9">
+            <textarea class="form-control text-secondary" id="exampleFormControlTextfield1" rows="1" placeholder="Your email"></textarea>
           </div>
         </div>
-      </form>
-    </div>
+
+        <div class="row justify-content-end">
+          <label for="Message" class="d-flex justify-content-end col-3"><strong>Your message</strong></label>
+          <div class="col-9">
+
+            <textarea class="form-control text-secondary" id="exampleFormControlTextarea1 " rows="4" placeholder="Please enter your message here..."></textarea>
+
+            <div class="button d-flex justify-content-end mt-3 mb-3">
+              <input class="btn btn-primary" type="submit" value="Submit" />
+            </div>
+          </div>
+        </div>
+
+      </div>
   </div>
+</div>
 </div>
